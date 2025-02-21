@@ -52,13 +52,13 @@
 //? it is a block of code which will perform some specific task for the end user , to utilise the function we need to call it .
 
 
-function add(a: number, b: number){
-    console.log(a+b);
+// function add(a: number, b: number):number{
+//     console.log(a+b);
     
     
-  return "hii"
+//     return a+b;
     
-}
+// }
 
 console.log(add(10, 20));
 
@@ -66,6 +66,9 @@ console.log(add(10, 20));
 
 // console.log(add(10, 50));
 // console.log(add(10, 60));
+
+
+
 
 
 
