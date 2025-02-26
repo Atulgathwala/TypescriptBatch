@@ -26,13 +26,14 @@
 // console.log(b(45));
 
 
-// function outer(num1: number): (num2: number) => number {
+function outer(num1: number): (num2: number) => number {
     
-//     return function inner(num2: number) {
-//         return num1 + num2;
-//     }
+    return function inner(num2: number) {
+        return num1 + num2;
+    }
+
     
-// }
+}
 
 
 // console.log(outer(10)(50));
