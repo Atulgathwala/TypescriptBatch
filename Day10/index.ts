@@ -42,8 +42,6 @@ firstName: string
 let Person1 = new PERSON("atul", "Gathwala");
 // Person1.getFullName() 
 
-
-
 class EMPLOYEE extends PERSON{
     age: number
     gender: string
@@ -56,7 +54,6 @@ class EMPLOYEE extends PERSON{
     }
  
 }
-
 
 
 let emp1 = new EMPLOYEE("atul", "Gathwala", 65, "male");
